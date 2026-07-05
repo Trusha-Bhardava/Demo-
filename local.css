@@ -1,0 +1,73 @@
+#nature{
+    height: 100px;
+    width: 100px;
+    background-image: url("nature.jpg");
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+    position:fixed;
+    right: 0px;
+}
+
+.navbar
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar a
+{
+    text-decoration: none;
+    color:white;
+}
+
+li
+{
+  list-style-type: none;
+
+}
+
+.outer
+{
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items:  center;     // cross item access
+}
+
+.inner
+{
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+    
+}
+
+.que4
+{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+}
+
+@media (max-width: 500px)
+{
+    div.que4
+    {
+        background-color: green;
+    }
+}
+
+
+
+@media (max-width: 300px) and (max-width: 800px)
+{
+    div.que4
+    {
+        background-color: pink;
+    }
+}
+

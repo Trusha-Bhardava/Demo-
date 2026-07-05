@@ -1,3 +1,76 @@
-<h1> Hello world</h1>
-<p> This is Html file </p>
-<p> it is practice file</p>
+<!-- Que-1
+ create div with id="box", add text on div, set bg color 
+    Que-2
+ create 3 heading with h1,h2,h3 and give all class heading and set color 
+    Que-3
+ create button and set bg color using css stylesheet, blue using style tag,pink using inline  
+    Que-4
+ create heading centered on page with all of it text captilized by default  
+    Que-5
+ create one div inside another div 
+ set id & text "outer" for first one & inner for second one 
+ set outer div text size 25px & inner div text size to 10px 
+    Que-6
+    create any divbar 
+    Que-7
+    create webpage layout header, footer & content area containing 3 div (add previous navbar in header) set height and width div to 100px, add border,
+    add different background color with opacity 0.5,give content area an appropriate height
+-->  
+
+<html>
+    <head>
+        <title>
+            practice question
+        </title>
+        <style>
+            #btn
+            {
+                background-color: red;
+            }
+        </style>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="box">
+            this is my div
+        </div>
+
+        <h1 class="heading"> This is h1 heading</h1>
+        <h2 class="heading"> This is h2 heading</h2>
+        <h3 class="heading"> This is h3 heading</h3>
+
+        <button id="btn"> click me</button><br><br>
+        <button style="background-color:pink;"> tap me </button><br><br>
+        <button id="bt"> click me</button>
+
+        <h4 id="head"> crush and crave</h4>
+
+        <div id="outer">
+            outer
+            <div id="inner">
+                inner
+            </div>
+        </div>
+
+        <p style="text-align:center; "> This is nav bar example </p>
+        <div id="navbar">
+            <a id="logo" href="#">amazon.in</a>
+            <a href="#"> Account</a>
+            <a href="#"> My cart</a>
+            <a href="#"> contact us</a>
+           <input placeholder="search here">
+            <button id="bttn">search</button>
+        </div>
+        <br><br>
+
+        <header>header </header><br><br>
+        <div id="content"></div>
+          <div class ="contentbox"style="background-color: rgba(255, 0, 0, 0.5);"> box1</div>
+           <div class ="contentbox" style="background-color: rgba(0, 255, 0, 0.5);"> box2</div>
+            <div class ="contentbox" style="background-color: rgba(0, 0, 255, 0.5);"> box3</div><br><br>
+        <footer>
+           Made with &hearts; by amazon<br>
+           &#169; 1996-2023, amazon.com, Inc. or its affiliates
+        </footer>
+    </body>
+</html>
