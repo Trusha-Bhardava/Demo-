@@ -10,7 +10,8 @@ Que-3
 Que-4
    the color of a div changes to green for viewport width less than 300px
    the color of a div changes to pink for width between 300px & 400px
- 
+Que-5
+   create form that cover all type and element
 -->
 
 <html>
@@ -55,6 +56,65 @@ Que-4
         </div>
     </div><br><br>
 
-    <div class="que4"></div>
+    <div class="que4"></div><br>
+
+    <form>
+        <label>Full name:</label>
+        <input type="text" placeholder="enter your name"><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" name="password"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email"><br><br>
+
+        <label>Age:</label><br>
+        <input type="number" name="age" min="1" max="100"><br><br>
+
+        <label>Phone:</label><br>
+        <input type="tel" name="phone"><br><br>
+
+        <label>Website:</label><br>
+        <input type="url" name="website"><br><br>
+
+        <label>Date of Birth:</label><br>
+        <input type="date" name="dob"><br><br>
+
+        <label>Time:</label><br>
+        <input type="time" name="time"><br><br>
+
+        <label>Week:</label><br>
+        <input type="week" name="week"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other<br><br>
+
+        <label>Skills:</label><br>
+        <input type="checkbox" name="skills" value="html"> HTML
+        <input type="checkbox" name="skills" value="css"> CSS
+        <input type="checkbox" name="skills" value="js"> JavaScript <br><br>
+
+         <label>Languages:</label><br>
+        <select name="languages">
+        <option>English</option>
+        <option>Hindi</option>
+        <option>Gujarati</option>
+        <option>French</option>
+        </select><br><br>
+
+        <label>Address:</label><br>
+        <textarea rows="4" cols="40"></textarea><br><br>
+
+        <label>Referral Code:</label><br>
+        <input type="text" value="ABC123" readonly><br><br>
+
+         <label>Disabled Field:</label><br>
+         <input type="text" value="Cannot Edit" disabled><br><br>
+
+
+
+    </form>
 </body>
 </html>
